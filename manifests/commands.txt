@@ -1,2 +1,7 @@
 kubectl create ns simple-postgres-deploy
 kubectl exec -it [pod-name] --  psql -h localhost -U admin --password -p 5432 postgresdb
+# In postgres db
+psql (10.1)
+Type "help" for help.
+
+postgresdb=# \l
